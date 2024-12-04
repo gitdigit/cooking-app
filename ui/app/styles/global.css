@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Footer */
+footer {
+  @apply absolute w-full h-10 text-xl text-center table-fixed border-2 border-solid border-[black] bottom-0 font-serif;
+}
+footer table {
+  @apply w-full;
+}
+footer table td {
+  @apply w-1/4;
+}
+
+/* Header */
+.AccueilLogo {
+  @apply absolute h-[50px] left-[5px] top-[5px] w-[90px];
+}
+header {
+  @apply relative w-full h-[60px] text-center mb-2.5 border-2 border-solid border-[black] top-0;
+}
+.TitreHeader {
+  @apply text-[40px] font-serif;
+}
+
+/* main */
+.wt-title {
+  @apply text-3xl font-bold underline mb-10;
+}
+main {
+  @apply text-center;
+}
+main div table {
+  @apply text-center w-full;
+}
+div {
+  @apply whitespace-pre;
+}
+h2 {
+  @apply text-2xl mb-10;
+}
+.Link {
+  @apply underline underline-offset-2;
+}
